@@ -1,0 +1,52 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "php",
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python"
+  ],
+  // python config
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ],
+  "languageserver": {
+    "intelephense": {
+      "command": "intelephense",
+      "args": [
+        "--stdio"
+      ],
+      "filetypes": [
+        "php"
+      ],
+      "initializationOptions": {
+        "storagePath": "/tmp/intelephense"
+      }
+    }
+  },
+  "css.enable": true,
+  "css.trace.server": "off",
+  "eslint.enable": true,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings": {
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
+    "v": "open:vsplit"
+  },
+  "explorer.icon.enableVimDevicons": true,
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
+}
