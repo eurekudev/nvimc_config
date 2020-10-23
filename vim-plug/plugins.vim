@@ -13,18 +13,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'ryanoasis/vim-devicons'
     
-"   Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' } " File Explorer
-    
     Plug 'jiangmiao/auto-pairs' " Auto pairs for '(' '[' '{'
 
     Plug 'joshdick/onedark.vim'
 
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes' 
 
-    Plug 'kevinhwang92/rnvimr'
+    Plug 'kevinhwang91/rnvimr'
     " Use release branch (recommend)
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Git
