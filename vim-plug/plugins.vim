@@ -32,5 +32,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
 
     Plug 'honza/vim-snippets'
-    
+   
+
+
 call plug#end()
