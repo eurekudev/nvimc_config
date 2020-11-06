@@ -22,7 +22,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'kevinhwang91/rnvimr'
     " Use release branch (recommend)
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc.nvim', { 'branch': 'release' }
     " Git
     Plug 'mhinz/vim-signify'
     Plug 'tpope/vim-fugitive'
